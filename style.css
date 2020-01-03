@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    background: #530306;
+    overflow: hidden;
+    font-family: Calibri;
+}
+
+.containment{
+    padding: 20px;
+    width: 60%;
+    margin: 20vh auto;
+    border: none;
+    box-shadow: 10px 10px 3px 1px #440407;
+    background: url('./back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.actual_form{
+    background: transparent;
+    width: 40%;
+    float: right;
+    padding: 20px 40px;
+}
+
+.my_form{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.my_form h4{
+    color: #530503;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.inputs{
+    margin: 17px auto;
+}
+
+.inputs input{
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    border-bottom: thin solid #000;
+}
+
+.forgot{
+    float: right;
+}
+
+.forgot a{
+    font-style: italic;
+    text-decoration: none;
+    color: #000;
+}
+
+.actual_form_after{
+    clear: both;
+}
+
+.form-btn button{
+    padding: 10px;
+    width: 65%;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background: #e94661;
+    border: none;
+    margin: 40px auto;
+    font-weight: bold;
+    color: #fff;
+}
